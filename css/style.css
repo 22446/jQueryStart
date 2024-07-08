@@ -1,0 +1,37 @@
+#home{
+   height: 100vh;
+}
+aside{
+   height: 100vh;
+}
+.parent{
+   background-image:  linear-gradient(rgba(180, 50, 60, 0.4), rgba(220, 40, 40, 0.4)), url("../images/anthony-delanoix-hzgs56Ze49s-unsplash.jpg");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.col-2{
+   background-color: #111111;
+}
+i,h3{
+   cursor: pointer;
+}
+
+.sec1 h2{
+   cursor: pointer;
+}
+.parent2 {
+   
+      background-image:  linear-gradient(rgba(180, 50, 60, 0.4), rgba(220, 40, 40, 0.4)), url("../images/timothy-l-brock-CwQ_OudRQII-unsplash.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+   
+}
+.gap-4 .item {
+   border: solid gray 1px;
+}
+.gap-4 .item:hover{
+  background-color: crimson;
+  color: white;
+}
